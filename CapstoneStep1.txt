@@ -1,0 +1,13 @@
+This app is called "country-view." It can be run from https://master--storied-sundae-3bae89.netlify.app/
+The source can be found at (https://github.com/rozziehawk/country-view/)
+
+
+This app will use the api (https://restcountries.com/v3.1) which takes the name of the country (either the common name or the "official" name) and returns a block of data containing information about that country.
+
+What this web app will do: It will allow a user to select a country from a dropdown list of all of the world's countries and display a page worth of general information about the country. The information will with a visual representation of the
+flag of that country, then list geographic information about the country's location, then (if applicable), the country's capital, languages spoken, the currency used, including its abbreviation and symbol (for example, in the case of the United States, it would display "(USD) United States dollar ($)") and lastly, the country's population (all data obtained from the REST Countries API).
+
+The data will be parsed into fields and displayed on the Display screen, with the flag of the selected country at the top (the
+ URL of which is also obtained from the API). 
+
+To accomplish this, the app will use the following resources: React, create-react-app, bootstrap (5.3), REST Countries API, country-list (for countries dropdown) and Axios.
